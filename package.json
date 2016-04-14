@@ -1,0 +1,39 @@
+{
+  "name": "enzyme-example-lab",
+  "version": "0.1.0",
+  "description": "Example project with React + Enzyme + Lab + Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test/.setup.js test/*-test.js --leaks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gattermeier/enzyme-example-lab.git"
+  },
+  "keywords": [
+    "Enzyme",
+    "Lab",
+    "React",
+    "testing"
+  ],
+  "author": "Matthias Gattermeier <matthias.gattermeier@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gattermeier/enzyme-example-lab/issues"
+  },
+  "homepage": "https://github.com/Gattermeier/enzyme-example-lab#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-airbnb": "^1.1.1",
+    "babel-register": "^6.7.2",
+    "code": "^2.2.0",
+    "enzyme": "^2.2.0",
+    "jsdom": "^8.3.1",
+    "lab": "^10.3.1",
+    "react-addons-test-utils": "^15.0.1"
+  },
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  }
+}
